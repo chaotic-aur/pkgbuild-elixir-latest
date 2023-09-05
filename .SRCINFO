@@ -1,0 +1,16 @@
+pkgbase = elixir-latest
+	pkgdesc = a functional meta-programming aware language built on top of the Erlang VM
+	pkgver = 1.15.5
+	pkgrel = 1
+	url = https://elixir-lang.org
+	arch = any
+	license = Apache
+	license = custom:EPL
+	checkdepends = git
+	depends = erlang-nox
+	provides = elixir
+	conflicts = elixir
+	source = elixir-1.15.5.tar.gz::https://github.com/elixir-lang/elixir/archive/v1.15.5.tar.gz
+	sha256sums = SKIP
+
+pkgname = elixir-latest
